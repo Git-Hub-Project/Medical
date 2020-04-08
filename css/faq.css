@@ -7,31 +7,50 @@
 .skyBlue {
     color: #2cb7df;
 }
-.skyBlueBg {
-    color: #2cb7df;
-}
+
 #accordion .card {
-    background: #f9f9f9;
+    background-color: #f9f9f9;
     border-color: #f9f9f9;
     color: #111111;
 }
 #accordion .card .btn-link, #accordion .card .btn-link:hover {
     color: #111;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
-.btn_info {
+.btn_info ,.ask button{
     position: relative;
 }
+.ask button.text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ask button .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 .btn_info::before {
-    content: '+';
+    content: '-';
+    background-color: #fff;
+    color: #376bff;
     position: absolute;
     right: 3px;
-    background-color: #000;
-    color: #fff;
     top: 8px;
     line-height: 10px;
     padding: 6px;
     font-size: 18px;
+    transition: color 0.3s ease;
+}
+.btn_info.collapsed::before {
+    content: '+';
+    background-color: #000;
+    color: #fff;
+    
 }
 .card-body {
     background-color: #fff;
@@ -52,17 +71,26 @@
     object-fit: cover;
     object-position: center;
 }
-.ask .submit {
-    color: #fff;
+.whitecolor{
+    color: #fff !important;
+}
+.skyBlueBg {
+    color: #fff !important;
     background-color: #2cb7df;
     border: none;
+    transition: all 0.3s ease;
 }
 .ask .submit:hover, .submit:focus {
     background-color: #263077;
     color: #fff;
 }
+.ask input{
+    border: 2px solid #ddd;
+    transition: border-bottom 0.4s ease;
+}
 .ask input:focus{
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+    border-bottom: 2px solid #2cb7df;
 }
