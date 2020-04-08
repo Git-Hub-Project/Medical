@@ -1,34 +1,27 @@
 .faqs .faq-header h3 {
     font-size: xxx-large;
 }
-
 .freq-des {
     line-height: 1.8;
 }
-
 .skyBlue {
     color: #2cb7df;
 }
-
 .skyBlueBg {
     color: #2cb7df;
 }
-
 #accordion .card {
     background: #f9f9f9;
     border-color: #f9f9f9;
     color: #111111;
 }
-
 #accordion .card .btn-link, #accordion .card .btn-link:hover {
     color: #111;
     text-decoration: none;
 }
-
 .btn_info {
     position: relative;
 }
-
 .btn_info::before {
     content: '+';
     position: absolute;
@@ -40,7 +33,6 @@
     padding: 6px;
     font-size: 18px;
 }
-
 .card-body {
     background-color: #fff;
     border: 1px solid #2cb7df;
@@ -49,16 +41,28 @@
     border-top-width: 1px;
     border-top: 0;
 }
-
 .corImg {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-
-.corImg img{
+.corImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.ask .submit {
+    color: #fff;
+    background-color: #2cb7df;
+    border: none;
+}
+.ask .submit:hover, .submit:focus {
+    background-color: #263077;
+    color: #fff;
+}
+.ask input:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
