@@ -373,7 +373,10 @@ img {
     align-content: center;
     justify-content: center;
 }
-
+.ourSpecialist
+{
+    height: 100vh;
+}
 .All
 {
     position: relative;
