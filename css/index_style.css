@@ -353,3 +353,77 @@ img {
 #corona-symptoms .overlay-bg .row .single-symptoms:hover .overlay2{
     top: 100%;
 }
+
+/*ourSpecialist section start */
+
+.head p
+{
+    color: #2cb7df;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+}
+.head h3
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.caption
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.All
+{
+    position: relative;
+    
+}
+.caption h4
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: #2cb7df;
+}
+
+.docData
+{
+    position: absolute;
+    top: 125%;
+    left: 0rem;
+    height: 125%;
+    background-color: #2cb7df;
+    border-top: 2px white;
+    display:none;
+    transition: top 1s !important;
+}
+.docData h4
+{
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: color 0.3s;
+}
+.icon i
+{
+    border: 2px white solid;
+    transition: background-color 0.3s;
+}
+.All:hover .docData
+{
+    top:0%;
+    display: unset;
+}
+.docData i:hover 
+{
+background-color: #263077;
+border-color: #263077;
+}
+.docData h4:hover 
+{
+    color:#263077;
+}
+/*end*/
