@@ -254,3 +254,102 @@ img {
     box-shadow: none;
     border-bottom: 2px solid #2cb7df;
 }
+
+
+
+
+
+
+
+#corona-symptoms{
+    background-image: url(../img/symptoms-bg.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   text-align: center;
+   margin: 5rem 0rem;
+}
+#corona-symptoms .overlay-bg{
+    background-color:rgba(38, 48, 119, 0.5) ;
+    padding: 3rem 0rem;
+}
+#corona-symptoms .overlay-bg h1{
+    
+    color: white;
+    font-weight: 600;
+   
+}
+#corona-symptoms .overlay-bg p{
+    color: white;
+    margin: 2rem 0rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#corona-symptoms .overlay-bg .row .single-symptoms{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    height: 430px;
+}
+
+#corona-symptoms .overlay-bg .row .single-symptoms img{
+   width: 100%;
+   height: 100%;
+  
+}
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 0rem 2rem;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay h4{
+    font-weight: 800;
+    font-size: 2rem;
+}
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay p{
+    color: #999;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay button{
+    
+    padding: 0.8rem 2.5rem;
+}
+
+
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay button:hover {
+    background-color: rgb(38, 48, 119);
+}
+
+#corona-symptoms .overlay-bg .row .single-symptoms:hover .overlay{
+    top: 0%;
+
+}
+
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay2{
+    background-color: white;
+    padding: 1rem 0rem;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+
+}
+
+
+#corona-symptoms .overlay-bg .row .single-symptoms .overlay2 h4{
+    font-weight: 600;
+}
+#corona-symptoms .overlay-bg .row .single-symptoms:hover .overlay2{
+    top: 100%;
+}
