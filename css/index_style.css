@@ -360,77 +360,57 @@ img {
 
 /*ourSpecialist section start */
 
-.head p
-{
+.head p {
     color: #2cb7df;
     font-family: 'Lato', sans-serif;
     line-height: 1.8;
 }
-.head h3
-{
+.head h3 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
 }
-.caption
-{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-.ourSpecialist
-{
-    height: 100vh;
-}
-.All
-{
-    position: relative;
+.first{
     
+    overflow: hidden;
+    position: relative;
 }
-.caption h4
-{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    font-size: 1.6rem;
-    position: absolute;
-    width: 100%;
-    height: 25%;
+.caption {
     background-color: #2cb7df;
+} 
+.All {
+    position: relative;
 }
-
-.docData
-{
+.docData {
     position: absolute;
-    top: 125%;
-    left: 0rem;
-    height: 125%;
+    
+    transition: 1s top ease !important;
     background-color: #2cb7df;
     border-top: 2px white;
-    display:none;
-    transition: top 1s !important;
+    display: none;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
 }
-.docData h4
-{
+.docData h4 {
     font-weight: 500;
     font-size: 1.6rem;
     transition: color 0.3s;
 }
-.icon i
-{
+.icon i {
     border: 2px white solid;
     transition: background-color 0.3s;
 }
-.All:hover .docData
-{
-    top:0%;
+.All:hover .docData {
     display: unset;
+    top: 0%;
 }
-.docData i:hover 
-{
-background-color: #263077;
-border-color: #263077;
+.docData i:hover {
+    background-color: #263077;
+    border-color: #263077;
 }
-.docData h4:hover 
-{
-    color:#263077;
+.docData h4:hover {
+    color: #263077;
 }
+
 /*end*/
