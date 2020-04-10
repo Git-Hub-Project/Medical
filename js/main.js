@@ -26,7 +26,7 @@ btnHover.addEventListener('mouseenter', function () {
 
 $(document).ready(function(){
     $('.slickslider').slick({
-    // autoplay:true,
+     autoplay:true,
     // autoplayspeed:3000,
     // centerMode: true,
     // slidesToShow: 4,
