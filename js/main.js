@@ -21,3 +21,39 @@ btnHover.addEventListener('mouseenter', function () {
         delay: (el, i) => 50 * i
     });
 });
+
+
+
+$(document).ready(function(){
+    $('.slickslider').slick({
+    // autoplay:true,
+    // autoplayspeed:3000,
+    // centerMode: true,
+    // slidesToShow: 4,
+    // slidesToScroll: 1
+
+    slidesToShow: 4,
+	    slidesToScroll: 1,
+	    arrows: false,
+	    dots: false,
+	    cssEase: 'linear',
+	    pauseOnHover: true,
+	    responsive: [{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},{
+			breakpoint: 550,
+			settings: {
+				slidesToShow: 1,
+			}
+		}]
+	
+    });
+});
