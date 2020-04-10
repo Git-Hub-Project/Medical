@@ -13,7 +13,8 @@ body {
 }
 .home-section {
     background-image: url('../img/banner.jpg');
-    background-size: cover;
+
+    background-size: 100% 100%;
     height: 620px;
 }
 .overlay-bg-black {
@@ -47,9 +48,12 @@ ul {
     padding: 5px 20px;
     font-weight: 500;
     border-radius: 0px;
+    font-size: inherit;
+    padding: 0;
+    align-self: center;
 }
 .nav-item:hover .nav-link {
-    color: #2cb7df;
+    color: #2cb7df !important;
 }
 .intro {
     display: flex;
